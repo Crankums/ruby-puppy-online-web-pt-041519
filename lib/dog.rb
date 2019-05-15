@@ -4,13 +4,16 @@ class Dog
 
   def initialize(name)
     @name = name
-    @@all << @name
+    @@all << self.name
   end
 
   def self.all
     @@all.each {|elem| puts "#{elem}"}
   end
 
+  def self.clear_all
+    @@all.clear
+  end
 
 
 end
