@@ -10,7 +10,7 @@ class Dog
   def all
     @@all.each {|elem| puts ${elem}}
   end
-  
+
 
 
 end
