@@ -6,6 +6,6 @@ class Dog
     @name = name
     @@all << self.name
   end
-  
+
 
 end
