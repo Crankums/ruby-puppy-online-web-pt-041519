@@ -8,7 +8,7 @@ class Dog
   end
 
   def all
-    @@all.each {|elem| puts ${elem}}
+    @@all.each {|elem| puts "#{elem}"}
   end
 
 
